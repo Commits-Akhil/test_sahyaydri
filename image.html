@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="image"></div>
+
+ <script>
+     const image = document.getElementById("image");
+     for (let i = 5; i < 15; i++) {
+     const img = document.createElement("img");
+    img.src = 'https://via.assets.so/movie.png?id=' + i + '&q=95&w=360&h=360&fit=fill';
+     image.appendChild(img);
+        }
+ </script>
+</body>
+</html>
