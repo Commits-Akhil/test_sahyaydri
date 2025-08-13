@@ -1,0 +1,20 @@
+--CREATE TABLE students (
+  --  id integer PRIMARY KEY,  
+  --  name VARCHAR(100),         
+  --  age integer,                          
+  --  course VARCHAR(50)                  
+--  );
+--INSERT INTO students (id,name, age, course)
+--VALUES (1,'Amit Sharma', 20, 'Computer Science');
+--select* from students;
+--INSERT INTO students (id,name, age, course)
+--VALUES (2,'Sharma', 24, 'it');
+--INSERT INTO students (id,name, age, course)
+--VALUES (3,'amit', 27, 'aiml');
+--select*from students where course='it';
+--update students set course='mechanical' where id=3;
+--select*from students;
+--delete from students where name='Sharma';
+--select*from students;
+--drop table students;
+select*from students;
